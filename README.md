@@ -7,6 +7,12 @@
 - عند الانتهاء:
   - git add .
   - git commit -m "finished-test"
+مثال : 
+  git checkout test-env-1
+git add .
+git commit -m "test"
+git push
+
 - لا تعمل merge إلى main
 
 ## الأسئلة:
