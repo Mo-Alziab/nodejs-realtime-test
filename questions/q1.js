@@ -17,9 +17,8 @@ app.post("/update-location", async (req, res) => {
   await db.query(
     `UPDATE drivers SET lat = ${lat}, lng = ${lng} WHERE id = '${driverId}'`
   );
-
+  // تيستتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتت
   res.send("ok");
 });
 
 // ✏️ اكتب الحل هنا
-
